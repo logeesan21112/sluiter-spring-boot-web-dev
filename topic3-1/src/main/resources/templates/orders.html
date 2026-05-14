@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html layout:decorate="layouts/defaultLayout">
+
+		<!--
+		1. Inser title
+		2. Insert table for orders
+		3. Add to defaultLayout
+		-->
+		<div layout:fragment="content">
+		<h2 th:text="${title}"></h2>
+		<table class="table table-striped">
+		  <thead>
+		    <tr>
+		      <th scope="col">Id</th>
+		      <th scope="col">OrderNo</th>
+		      <th scope="col">Name</th>
+		      <th scope="col">Price</th>
+			  <th acope="col">Qty</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr th:each="order : ${orders}">
+
+		      <td th:text="${order.id}">Mark</td>
+		      <td th:text="${order.orderNo}">Otto</td>
+		      <td th:text="${order.productName}">@mdo</td>
+			  <td th:text="${order.price}">@mdo</td>
+			  <td th:text="${order.quantity}">@mdo</td>
+		    </tr>
+		  </tbody>
+		</table>
+		</div>
+</html>

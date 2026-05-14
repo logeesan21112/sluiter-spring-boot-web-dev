@@ -1,0 +1,39 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper
+!mvnw
+!mvnw.cmd
+!.mvn/
+
+# Eclipse IDE
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+.factorypath
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Spring Boot
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Help file
+HELP.md
