@@ -1,6 +1,9 @@
-# Spring Boot Learning Journey
+<div align="center">
+  <h1>Spring Boot Learning Journey</h1>
+  <p>A step-by-step learning project following the <strong>Web Development in Java Spring Boot</strong> playlist by Professor Sluiter. Each topic folder is a complete, runnable project that builds on the previous one.</p>
+</div>
 
-A step-by-step learning project following the **Web Development in Java Spring Boot** playlist by Professor Sluiter. Each topic folder is a complete, runnable project that builds on the previous one.
+---
 
 ## Project Structure
 
@@ -12,6 +15,8 @@ A step-by-step learning project following the **Web Development in Java Spring B
 └── topic3-1/       # Dependency Injection & Configuration
 ```
 
+---
+
 ## Topic Breakdown
 
 | Topic | Focus |
@@ -21,6 +26,8 @@ A step-by-step learning project following the **Web Development in Java Spring B
 | 2-2 | Form submission, Jakarta Validation, error handling |
 | 2-3 | Thymeleaf fragments, layout composition, Bootstrap 5 |
 | 3-1 | `@Configuration`, `@Bean`, interface-based DI, `@Autowired` |
+
+---
 
 ## Getting Started
 
@@ -36,9 +43,13 @@ mvn spring-boot:run
 # Open http://localhost:8080
 ```
 
-## Credit
+---
 
-All credit goes to **Professor Shad Sluiter** for the excellent tutorial content.
+## References
 
-- [YouTube Channel](https://www.youtube.com/@shadsluiter)
-- [Web Development in Java Spring Boot - Playlist](https://www.youtube.com/playlist?list=PLhPyEFL5u-i0MHw41OapxjLlsl0s2XQyE)
+This project was built by following the **Web Development in Java Spring Boot** playlist by Professor Shad Sluiter. All credit for the tutorial content goes to him.
+
+| Type | Link |
+|------|------|
+| 📺 YouTube Channel | [Shad Sluiter](https://www.youtube.com/@shadsluiter) |
+| 📋 YouTube Playlist | [Web Development in Java Spring Boot](https://www.youtube.com/playlist?list=PLhPyEFL5u-i0MHw41OapxjLlsl0s2XQyE) |
